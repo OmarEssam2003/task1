@@ -1,0 +1,60 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.left-section {
+    background-color: #0b74e5;
+    color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.phone-preview {
+    max-width: 300px;
+    margin: 0 150px;
+}
+
+.right-section {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-container h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.app-download-links img {
+    width: 130px;
+    margin-right: 10px;
+}
+
+.terms-policy {
+    font-size: 0.875rem;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    margin-top: 40px; margin-bottom: 40px; z-index: 1; box-shadow: 10px 10px 5px gray;
+}
+
