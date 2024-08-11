@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capzul - Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .left-section {
+            background-color: #0b74e5;
+            color: white;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            padding: 0 40px;
+        }
+
+        .phone-preview {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .right-section {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .form-container {
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .form-container h3 {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .app-download-links img {
+            width: 130px;
+            margin-right: 10px;
+        }
+
+        .terms-policy {
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+
+<body style=" position: relative;">
+    <div class="container" style="margin-top: 40px; margin-bottom: 40px; z-index: 1; box-shadow: 10px 10px 5px gray;" >
+        <div class="row vh-70">
+            <!-- Left section with promotional content -->
+            <div class="col-md-6 left-section">
+                <div>
+                    <h2>Social media shared today, tomorrow or by location</h2>
+                    <img src="path_to_phone_image.png" class="phone-preview img-fluid" alt="App Preview">
+                </div>
+            </div>
+
+            <!-- Right section with form -->
+            <div class="col-md-6 right-section">
+                <div class="form-container">
+                    <h3>Create account</h3>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="firstName">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="lastName">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email or phone number</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="dob" class="form-label">Date of birth</label>
+                                <input type="date" class="form-control" id="dob">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="confirmPassword" class="form-label">Confirm password</label>
+                                <input type="password" class="form-control" id="confirmPassword">
+                            </div>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <div class="mb-3">
+                            <input type="checkbox" class="form-check-input" id="terms">
+                            <label class="form-check-label terms-policy" for="terms">I agree to all the <a href="#">Terms and Privacy policy</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Create account</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-outline-primary w-100 mb-2">Sign-in with Google</button>
+                        <p><a href="#">Forgot password?</a></p>
+                    </div>
+                    <div class="text-center app-download-links mt-4">
+                        <a href="#"><img src="google_play_badge.png" alt="Google Play"></a>
+                        <a href="#"><img src="app_store_badge.png" alt="App Store"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
